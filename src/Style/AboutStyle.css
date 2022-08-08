@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital@1&family=Lora:ital@1&family=Montserrat&family=Open+Sans:ital,wght@0,400;1,800&family=Poppins:wght@300&family=Roboto+Condensed&family=Stylish&family=Ubuntu:ital,wght@1,300;1,400&display=swap');
+
+
+.aboutFlied{
+    width: 90%;
+    margin: 0px auto;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.heading h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom:0.5em;
+}
+.heading span{
+    color: rgb(235, 49, 49);
+    
+}
+.heading p{
+    font-size: 1.3em;
+    text-align: center;
+    margin: 0px auto;
+    width: 70%;
+}
+.aboutImg img{
+    margin-top: 8rem;
+    border-radius: 58px;
+    box-shadow: 2px 2px 5px gainsboro;
+}
+
+
+@media screen and (max-width:1120px) {
+    
+       
+    .heading h2{
+        font-size: 2.2rem;
+        font-weight: 500;
+       
+    }
+    .heading span{
+        color: rgb(235, 49, 49);
+        
+    }
+    .heading p{
+        font-size: 1.1em;
+        text-align: center;
+        margin: 0px auto;
+        width: 70%;
+    }
+    .aboutImg img{
+        margin-top: 8rem;
+        border-radius: 58px;
+        box-shadow: 2px 2px 5px gainsboro;
+        width: 400px;
+    }
+    
+    
+}
+
+@media screen and (max-width:850px) {
+    
+       
+    .heading h2{
+        font-size: 2rem;
+        font-weight: 500;
+       
+    }
+    .heading span{
+        color: rgb(235, 49, 49);
+        
+    }
+    .heading p{
+        font-size: 1em;
+        text-align: center;
+        margin: 0px auto;
+        width: 70%;
+    }
+    .aboutImg img{
+        margin-top: 6rem;
+        border-radius: 58px;
+        box-shadow: 2px 2px 5px gainsboro;
+        width: 350px;
+    }
+    
+    
+}
+@media screen and (max-width:650px) {
+    
+       
+    .heading h2{
+        font-size: 1.7rem;
+        font-weight: 500;
+       
+    }
+    .heading span{
+        color: rgb(235, 49, 49);
+        
+    }
+    .heading p{
+        font-size: 0.8em;
+        text-align: center;
+        margin: 0px auto;
+        width: 70%;
+    }
+    .aboutImg img{
+        margin-top: 6rem;
+        margin-bottom: 2rem;
+        border-radius: 58px;
+        box-shadow: 2px 2px 5px gainsboro;
+        width: 300px;
+    }
+
+    
+    
+}
+
+@media screen and (max-width:540px) {
+    
+    .aboutFlied{
+        flex-direction: column;
+    }
+       
+    .heading h2{
+        font-size: 2rem;
+        font-weight: 500;
+       
+    }
+    .heading span{
+        color: rgb(235, 49, 49);
+        
+    }
+    .heading p{
+        font-size: 1em;
+        text-align: center;
+        margin: 0px auto;
+        width: 70%;
+    }
+    .aboutImg img{
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+        border-radius: 58px;
+        box-shadow: 2px 2px 5px rgb(163, 159, 159);
+        width: 350px;
+    }
+    
+    
+    
+}
+@media screen and (max-width:440px) {
+    
+   
+       
+    .heading h2{
+        font-size: 1.8rem;
+        font-weight: 500;
+       
+    }
+    .heading span{
+        color: rgb(235, 49, 49);
+        
+    }
+    .heading p{
+        font-size: 0.8em;
+        text-align: center;
+        margin: 0px auto;
+        width: 70%;
+    }
+    .aboutImg img{
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+        border-radius: 58px;
+        box-shadow: 2px 2px 5px rgb(163, 159, 159);
+        width: 300px;
+    }
+    
+    
+    
+}
+@media screen and (max-width:330px) {
+
+    .heading h2{
+        font-size: 1.5rem;
+        font-weight: 400;
+       
+    }
+    .heading span{
+        color: rgb(235, 49, 49);
+        
+    }
+    .heading p{
+        font-size: 0.6em;
+        text-align: center;
+        margin: 0px auto;
+        width: 70%;
+    }
+    .aboutImg img{
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+        border-radius: 58px;
+        box-shadow: 2px 2px 5px rgb(163, 159, 159);
+        width:250px;
+    }
+    
+    
+    
+}

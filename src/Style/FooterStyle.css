@@ -1,0 +1,42 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital@1&family=Lora:ital@1&family=Montserrat&family=Open+Sans:ital,wght@0,400;1,800&family=Poppins:wght@300&family=Roboto+Condensed&family=Stylish&family=Ubuntu:ital,wght@1,300;1,400&display=swap');
+
+.navbar{
+    background-color: rgb(244, 244, 244);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px auto;
+    
+}
+.icon{
+    font-size: 1.6rem; 
+    
+}
+.footerIcon{
+    margin-right: 1.4em;
+}
+.copyright{
+    font-size: 1.2em;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0.5em;
+    font-weight: bold;
+}
+.address{
+    font-size: 1.2em;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0.5em;
+    font-weight: bold;
+
+}
+@media screen and (max-width:900px) {
+    .copyright{
+       text-decoration: underline;
+    }
+    .address{
+        color: brown;
+        font-weight: bold;
+    }
+}

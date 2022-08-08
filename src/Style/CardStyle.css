@@ -1,0 +1,79 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital@1&family=Lora:ital@1&family=Montserrat&family=Open+Sans:ital,wght@0,400;1,800&family=Poppins:wght@300&family=Roboto+Condensed&family=Stylish&family=Ubuntu:ital,wght@1,300;1,400&display=swap');
+
+.container{
+    max-width: 1300px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: black;
+    /* background-color: rgb(250, 250, 250); */
+}
+.box{
+    width: 28%;
+    display: flex;
+    margin: 10px;
+    box-shadow: 2px 2px 12px gray;
+   
+    
+
+}
+h5{
+    color: rgb(235, 49, 49);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    color: black;
+    font-size: 0.9rem;
+}
+.card{
+    width:100%;
+    color: aqua;
+}
+.cardImage{
+    margin-bottom: 2rem;
+}
+.card-title{
+    margin-bottom: 8px;
+}
+.btn{
+    margin-bottom: 12px;
+}
+h2{
+    text-align: center;
+    margin: 15px;
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(235, 49, 49);
+    font-weight: 600;
+}
+.price{
+    color:white;
+}
+.para{
+    color: white;
+}
+
+@media screen and (max-width:750px) {
+    .container{
+        flex-direction: column;
+        margin: 0px auto;
+    }
+    .box{
+        margin: 0px auto;
+        width: 80%;
+        margin-bottom: 3rem;
+    }
+}
+@media screen and (max-width:750px) {
+   
+    .box{
+        margin: 0px auto;
+        width: 70%;
+        margin-bottom: 3rem;
+    }
+}
